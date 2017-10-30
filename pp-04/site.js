@@ -18,6 +18,9 @@ console.log('The value of x is:', x, 'It should be 5.');
 //  function can be accessed via the `window` global object,
 //  like `window.x`):
 
+(function(){
+  console.log('The value of x is:', x, 'It should be 5.');
+})();
 
 //  3. Correct this function so that there is no i variable in
 //  the global scope:
