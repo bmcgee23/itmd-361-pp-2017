@@ -13,7 +13,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 #three,
 #two,
 #one {
-  color: white;
+  color: black;
 }
 #three {
   background-color: purple;
@@ -28,6 +28,11 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* ==== LAYOUT STYLES ==== */
 #content {
+    display: flex;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 150px 150px;
+    grid-gap: 1rem;
+  }
 
 }
 
