@@ -39,6 +39,10 @@ console.log(undefined) // should be 'undefined', not 3
 //  variable x declared on line 5 above. Write your explanation
 //  as JavaScript comments.
 
+//  this function does't modify the global variable x because x is
+//  being defined as "istelf plus 2" so it can only return x + 2. x in this
+//  case is 5
+
 function addTwo(x) {
   x = x + 2;
   return x;
